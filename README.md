@@ -47,7 +47,7 @@ In the range of [0.0, 1.0] where the higher the value is more is the burn out.
 
 
 ## Workflow
-Data Cleaning & Preprocessing
+1. Data Cleaning & Preprocessing
 
 - Handle missing values
 
@@ -55,7 +55,7 @@ Data Cleaning & Preprocessing
 
 - Normalize/scale numerical data
 
-Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 
 - Understand distribution and correlation of features
 
@@ -63,13 +63,13 @@ Exploratory Data Analysis (EDA)
 
 Model Building
 
-Train Linear Regression Model
+-Train Linear Regression Model
 
-Model Evaluation
+3. Model Evaluation
 
-Metrics: Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R-squared Score
+-Metrics: Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R-squared Score
 
-Insights & Visualization
+4. Insights & Visualization
 
 -Identify key burnout indicators
 
