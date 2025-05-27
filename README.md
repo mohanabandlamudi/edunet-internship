@@ -1,9 +1,11 @@
-Employee Burnout Prediction Using Artificial Intelligence
+## Employee Burnout Prediction Using Artificial Intelligence
 
 💡 Overview
 This project focuses on predicting employee burnout using machine learning techniques. Burnout is a critical issue in today’s fast-paced work environments, affecting employee well-being, productivity, and organizational health. The goal is to build a system that can help HR teams and organizations proactively identify at-risk employees and take timely action.
 
 📌 Objectives
+
+
 ✅ Analyze factors contributing to employee burnout.
 
 ✅ Build and evaluate predictive machine learning models.
@@ -12,7 +14,7 @@ This project focuses on predicting employee burnout using machine learning techn
 
 ✅ Provide actionable insights to improve employee engagement and satisfaction.
 
-##Technologies Used
+## Technologies Used
 Category	Tools & Libraries
 Programming	Python
 ML Libraries	Scikit-learn
@@ -22,7 +24,7 @@ IDE/Notebook	Jupyter Notebook
 Version Control	Git, GitHub
 
 
-##About Dataset
+## About Dataset
 Context
 Understanding what will be the Burn Rate for the employee working in an organization based on the current pandemic situation where work from home is a boon and a bane. How are employees' Burn Rate affected based on various conditions provided?
 
@@ -43,53 +45,32 @@ In the range of [0.0, 10.0] where 0.0 means no fatigue and 10.0 means completely
 Burn Rate: The value we need to predict for each employee telling the rate of Bur out while working.
 In the range of [0.0, 1.0] where the higher the value is more is the burn out.
 
-Features:
 
-Satisfaction Level
-
-Number of Projects
-
-Average Monthly Hours
-
-Time Spent at Company
-
-Work Accident History
-
-Promotion Status
-
-Department
-
-Salary Category
-
-Burnout Level (Target)
-
-⚙️ Workflow
+## Workflow
 Data Cleaning & Preprocessing
 
-Handle missing values
+- Handle missing values
 
-Encode categorical features
+- Encode categorical features
 
-Normalize/scale numerical data
+- Normalize/scale numerical data
 
 Exploratory Data Analysis (EDA)
 
-Understand distribution and correlation of features
+- Understand distribution and correlation of features
 
-Visualize patterns in employee burnout
+- Visualize patterns in employee burnout
 
 Model Building
 
-Train multiple models (Logistic Regression, Random Forest, Decision Tree, Neural Networks)
-
-Hyperparameter tuning using GridSearchCV
+Train Linear Regression Model
 
 Model Evaluation
 
-Metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+Metrics: Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R-squared Score
 
 Insights & Visualization
 
-Identify key burnout indicators
+-Identify key burnout indicators
 
-Interactive dashboards and heatmaps
+- Interactive dashboards and heatmaps
